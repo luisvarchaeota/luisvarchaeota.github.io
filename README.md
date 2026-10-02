@@ -6,7 +6,8 @@ This site uses plain HTML and CSS. It needs no build step or ChatGPT service to 
 
 ## Website and repository
 
-- Website: https://luisvarchaeota.github.io/
+- Website: https://valentinalvarado.com/
+- Alternate address: https://www.valentinalvarado.com/
 - Repository: https://github.com/luisvarchaeota/luisvarchaeota.github.io
 - Publishing branch: `main`, repository root (`/`).
 - GitHub Pages settings: https://github.com/luisvarchaeota/luisvarchaeota.github.io/settings/pages
@@ -47,9 +48,11 @@ Use photographs and figures you have permission to share, with the appropriate c
 
 The colors, fonts, spacing, and responsive layout are defined in `styles.css`. Keep a copy of the previous version or use GitHub's commit history to recover an earlier version.
 
-## Add a personal domain later
+## Custom domain
 
-After registering a domain, verify it with GitHub and configure it in **Settings → Pages → Custom domain**, following GitHub's instructions. Add a `CNAME` file only after the exact domain has been chosen and configured.
+The domain `valentinalvarado.com` is registered with Porkbun and connected to GitHub Pages. Keep the root `CNAME` file when updating or replacing website files; it contains `valentinalvarado.com`.
+
+Porkbun DNS uses four root A records (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) and a `www` CNAME pointing to `luisvarchaeota.github.io`. Keep the `_github-pages-challenge-luisvarchaeota` TXT record so GitHub can retain domain ownership verification. GitHub manages the HTTPS certificate.
 
 ## Reference
 
